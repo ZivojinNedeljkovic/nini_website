@@ -2,22 +2,104 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--icons-->
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css" />
 
-    <link rel="stylesheet" href="/styles/index.css">
+    <link rel="stylesheet" href="./styles/shared.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
     <title>RAMPA</title>
 </head>
 
 <body>
-    <h1>Hello World</h1>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/BkZeh6pc450" title="YouTube video player"
-        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
+    <header>
+        <img src="./images/logo.jpg" alt="logo" class="logo" />
+        <nav class="main-nav">
+            <ul>
+                <li><a class="active-link">Početna</a></li>
+                <li><a>Galerija</a></li>
+                <li><a>O nama</a></li>
+                <li><a>O autoru</a></li>
+            </ul>
+        </nav>
+
+        <ul class="icons">
+            <li>
+                <a href="#">
+                    <i class="zmdi zmdi-youtube-play"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="zmdi zmdi-facebook-box"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="zmdi zmdi-instagram"></i>
+                </a>
+            </li>
+        </ul>
+    </header>
+
+    <main>
+        <section class="gallery-preview">
+            <a class="section-link" href="#">Još slika</a>
+        </section>
+        <section class="about-us-preview">
+            <article>
+                <h1>Radioaktivna melodija Pančeva</h1>
+                <div class="about-us-preview__paragraphs">
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet
+                        aut asperiores hic omnis magni nihil repellendus quae esse explicabo
+                        eius, minus facilis ea deleniti maiores dolore consequatur modi
+                        rerum perspiciatis!
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius
+                        labore alias corrupti accusantium? Modi ratione debitis voluptatum
+                        quaerat cum eos perspiciatis explicabo in, eaque magnam!
+                    </p>
+                </div>
+            </article>
+            <a class="section-link" href="">Još o nama</a>
+        </section>
+        <section class="music">
+            <iframe src="https://www.youtube.com/embed/JsloUPSH738" title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
+            <iframe src="https://www.youtube.com/embed/BkZeh6pc450" title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
+            <iframe src="https://www.youtube.com/embed/y1rTbti8qeY" title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
+            <iframe src="https://www.youtube.com/embed/EVk1innpljw" title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
+            <iframe src="https://www.youtube.com/embed/H_ar_FIsBlo" title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
+            <iframe src="https://www.youtube.com/embed/XhEgjoDwCc8" title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
+            <a class="section-link" href="">Još pesama</a>
+        </section>
+    </main>
+    <footer>
+        <p>copyright &copy; Nikoleta Nedeljkovic</p>
+        <p>nikoleta.nedeljkovic.106.21@ict.edu.rs</p>
+    </footer>
 </body>
 
 </html>

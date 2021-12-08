@@ -1,0 +1,50 @@
+.section-link {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  color: black;
+  text-decoration: none;
+}
+.gallery-preview {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-image: url(../images/bg-cover.jpg);
+  background-position: center;
+}
+.gallery-preview .section-link {
+  color: white;
+}
+.about-us-preview {
+  position: relative;
+  text-align: center;
+  padding-bottom: 4rem;
+}
+.about-us-preview h1 {
+  font-size: 2rem;
+}
+.about-us-preview__paragraphs {
+  display: flex;
+  justify-content: space-evenly;
+}
+.about-us-preview p {
+  width: min(40%, 550px);
+  font-size: 1.4rem;
+}
+.about-us-preview__link {
+  color: black;
+}
+
+.music {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+.music iframe {
+  width: 560px;
+  height: 315px;
+  margin: 15px;
+}
