@@ -8,6 +8,8 @@ main {
 }
 main .frame {
   width: 640px;
+  overflow: hidden;
+  /* max-height: 400px; */
 }
 main img {
   width: 640px;
@@ -16,7 +18,6 @@ main img {
   transition: width 1s, height 1s, transform 1s;
 }
 main img:hover {
-  position: relative;
-  transform: translate(-100px, 0);
-  width: 840px;
+  transform: scale(1.5);
+  cursor: zoom-in;
 }
