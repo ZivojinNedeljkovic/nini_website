@@ -9,6 +9,8 @@ main {
 main .frame {
   width: 640px;
   overflow: hidden;
+  /* border: black 1px solid; */
+  /* box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.5); */
   /* max-height: 400px; */
 }
 main img {
@@ -19,5 +21,5 @@ main img {
 }
 main img:hover {
   transform: scale(1.5);
-  cursor: zoom-in;
+  /* cursor: zoom-in; */
 }

@@ -11,12 +11,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gelasio&display=swap" rel="stylesheet">
 
-    <!--icons-->
+    <!-- icons -->
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css" />
 
-    <link rel="stylesheet" href="../styles/shared.css">
-    <link rel="stylesheet" href="../styles/gallery.css">
+    <link rel="stylesheet" href="../styles/shared.css" />
+    <link rel="stylesheet" href="../styles/contact.css" />
     <title>RAMPA</title>
 </head>
 
@@ -28,9 +28,9 @@
         <nav class="main-nav">
             <ul>
                 <li><a href="../index.html">Početna</a></li>
-                <li><a class="active-link">Galerija</a></li>
+                <li><a href="../pages/gallery.html">Galerija</a></li>
                 <li><a href="../pages/about_us.html">O nama</a></li>
-                <li><a href="../pages/contact.html">Kontakt</a></li>
+                <li><a class="active-link">Kontakt</a></li>
                 <li><a href="../pages/about_me.html">O autoru</a></li>
             </ul>
         </nav>
@@ -53,42 +53,27 @@
             </li>
         </ul>
     </header>
+
     <main>
-        <div class="frame">
-            <img src="../images/gallery/1.jpg" alt="">
-        </div>
-        <div class="frame">
-            <img src="../images/gallery/8.jpg" alt="">
-        </div>
-        <div class="frame">
-            <img src="../images/gallery/9.jpg" alt="">
-        </div>
-        <div class="frame">
-            <img src="../images/gallery/11.jpg" alt="">
-        </div>
-        <div class="frame">
-            <img src="../images/gallery/12.jpg" alt="">
-        </div>
-        <div class="frame">
-            <img src="../images/gallery/13.jpg" alt="">
-        </div>
-        <div class="frame">
-            <img src="../images/gallery/14.jpg" alt="">
-        </div>
-        <div class="frame">
-            <img src="../images/gallery/18.jpg" alt="">
-        </div>
-        <div class="frame">
-            <img src="../images/gallery/22.jpg" alt="">
-        </div>
 
+        <form>
+            <h2> Pošaljite nam poruku! </h2>
+            <label for="email-input">Unesi e-mail</label>
+            <input id="email-input" type="email">
+
+            <label for="name-input">Ime</label>
+            <input id="name-input" type="text">
+
+            <label id="message-input-label" for="message-input">Poruka</label>
+            <textarea id="message-input"></textarea>
+
+            <button>Pošalji</button>
+        </form>
     </main>
-
-    <footer>
-        <p>copyright &copy; Nikoleta Nedeljkovic</p>
+    <footer class="push-down">
+        <p>copyright &copy; Nikoleta Nedeljković</p>
         <p>nikoleta.nedeljkovic.106.21@ict.edu.rs</p>
     </footer>
-
 </body>
 
 </html>

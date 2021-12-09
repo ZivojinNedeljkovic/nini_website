@@ -3,6 +3,7 @@
 }
 body {
   margin: 0;
+  font-family: 'Gelasio', serif;
 }
 header {
   display: flex;
@@ -70,4 +71,9 @@ footer {
 footer p {
   margin: 0;
   font-size: 1rem;
+}
+.push-down {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
