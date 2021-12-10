@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+ <channel>
+    <title>Muzika i muzički događaji</title>
+    <link>https://rampa.netlify.app/index.html</link>
+    <description>Pratite obaveštenja o našem radu</description>
+  <item>
+    <title>Premijera novog singla</title>
+    <link>https://rampa.netlify.app/index.html</link>
+    <description>Bend Rampa izbacuje novi singl nakon kraće pauze</description>
+  </item>
+ </channel>
+</rss>

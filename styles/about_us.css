@@ -9,7 +9,7 @@ article {
 
 article img {
   height: auto;
-  width: 30%;
+  width: min(30%, 540px);
   border-radius: 9px;
 }
 

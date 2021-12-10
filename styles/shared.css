@@ -68,9 +68,14 @@ footer {
   flex-direction: column;
   margin-top: 100px;
 }
-footer p {
+footer p,
+a {
   margin: 0;
   font-size: 1rem;
+}
+footer a {
+  color: rgb(255, 255, 255, 0.739);
+  text-decoration: none;
 }
 .push-down {
   position: fixed;
